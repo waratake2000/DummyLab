@@ -19,6 +19,10 @@
 # misc
 .DS_Store
 *.pem
+storybook-static/
+playwright-report/
+test-results/
+blob-report/
 
 # debug
 npm-debug.log*
@@ -39,3 +43,5 @@ next-env.d.ts
 .amplify
 amplify_outputs*
 amplifyconfiguration*
+*storybook.log
+storybook-static/

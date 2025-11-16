@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 222 82% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --background: 228 11% 91%;
+    --foreground: 222 40% 11%;
+
+    --border: 228 11% 91%;
+    --input: 228 11% 91%;
+    --ring: var(--primary);
+
+    --radius: 0.75rem;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
